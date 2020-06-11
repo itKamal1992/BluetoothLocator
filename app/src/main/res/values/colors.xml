@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorLightBlue">#D63949AB</color>
+    <color name="colorWhite">#F6FAF9</color>
+    <color name="colorLightRed">#D5605D</color>
+    <color name="colorLightGrey">#dddddd</color>
+    <color name="colorLightYellow">@android:color/holo_orange_light</color>
+    <color name="colorFacebook">@color/com_facebook_button_background_color</color>
+    <color name="colorLoginGreen">#53A356</color>
+    <color name="colorDarkGreen">#1B5E20</color>
+    <color name="colorBlack">#141714</color>
+</resources>

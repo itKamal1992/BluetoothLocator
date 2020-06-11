@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BluetoothLocator</string>
+
+    <string name="facebook_app_id">580046449302802</string>
+    <string name="fb_login_protocol_scheme">fb580046449302802</string>
+
+
+    <string name="positive_popup_default">Success</string>
+    <string name="failureStorageErr">Please give storage permission. To Enjoy uninterrupted App Functionality.</string>
+    <string name="failureSSApiVerErr">Please Try again, Failed to connect to the Server.</string>
+    <string name="failureNoInternetErr">No Internet Connection.\nPlease connect to active internet connection.</string>
+</resources>

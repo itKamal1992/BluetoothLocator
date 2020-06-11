@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010900380164",
+    "firebase_url": "https://coronaalert-1590577036351.firebaseio.com",
+    "project_id": "coronaalert-1590577036351",
+    "storage_bucket": "coronaalert-1590577036351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010900380164:android:bb08c5444800f3cda6e351",
+        "android_client_info": {
+          "package_name": "com.mgicorona.bluetoothlocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010900380164-pvkndqujrjhotq7afs09gb055g96anoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mgicorona.bluetoothlocator",
+            "certificate_hash": "0a8156fd6c86f0bc4127ea1fb3362252afa2b80a"
+          }
+        },
+        {
+          "client_id": "1010900380164-qsl719hm8ru0t1hj9ljqqr5la2342j9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjQ3RoPOVRi29VyCboNoV-OxHCf9VFPuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010900380164-qsl719hm8ru0t1hj9ljqqr5la2342j9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

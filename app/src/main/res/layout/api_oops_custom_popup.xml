@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:cardBackgroundColor="@color/colorLightRed"
+        app:cardCornerRadius="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitleCustomDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Oops"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/colorWhite"
+                    android:background="@drawable/ic_error_outline_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/tvMsgCustomDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/positive_popup_default"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18dp" />
+
+                <!--<TextView android:layout_width="match_parent"-->
+                <!--android:layout_marginLeft="@dimen/layout_marginLeft_20dp"-->
+                <!--android:layout_marginRight="@dimen/layout_marginRight_20dp"-->
+                <!--android:layout_marginBottom="@dimen/layout_marginBottom_10dp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="@dimen/txt_size_20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="@string/positive_popup_default"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCustomDialogAccept"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/btn_white_round"
+                    android:text="OK"
+                    android:textColor="@color/colorLightRed"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
