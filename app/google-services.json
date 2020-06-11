@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1010900380164-fl46fgb1ajea8plrafqsh6kr372od4kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mgicorona.bluetoothlocator",
+            "certificate_hash": "08eb9b51d58ec77cc05104dcacbc7ffbfcee49f1"
+          }
+        },
+        {
           "client_id": "1010900380164-pvkndqujrjhotq7afs09gb055g96anoo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

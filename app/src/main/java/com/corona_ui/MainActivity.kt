@@ -299,7 +299,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 completedTask.getResult(ApiException::class.java)
 
             // Signed in successfully, show authenticated UI.
-//            updateUI(account)
+//          updateUI(account)
             account?.displayName
             account?.email
 
